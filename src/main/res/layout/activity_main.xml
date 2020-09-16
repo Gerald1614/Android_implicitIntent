@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
+    <EditText
         android:id="@+id/website_edittext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,7 +21,7 @@
         android:onClick="openWebsite"
         android:text="@string/button_uri" />
 
-    <TextView
+    <EditText
         android:id="@+id/location_edittext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -35,7 +35,7 @@
         android:onClick="openLocation"
         android:text="@string/button_loc" />
 
-    <TextView
+    <EditText
         android:id="@+id/share_edittext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
